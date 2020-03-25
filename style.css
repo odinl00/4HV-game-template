@@ -6,3 +6,6 @@
   max-height: min(100vh, 100vw*720/1280);
 }
 
+html, body {
+  margin: 0px;
+}

@@ -35,11 +35,11 @@ var tekenSpeler = function(x, y) {
   ellipse(x, y, 50, 50);
 };
 
-var verplaatsVijand = function() {
+var beweegVijand = function() {
   // update globale variabelen met positie van vijand
 };
 
-var verplaatsSpeler = function() {
+var beweegSpeler = function() {
   // kijk wat de toetsen/muis etc zijn
   // update globale variabele spelerX en spelerY aan
 };
@@ -65,8 +65,8 @@ function setup() {
 function draw() {
   switch (spelStatus) {
     case SPELEN:
-      verplaatsVijand();
-      verplaatsSpeler();
+      beweegVijand();
+      beweegSpeler();
   
       tekenVeld();
       tekenVijand();
