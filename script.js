@@ -31,8 +31,8 @@ function draw() {
   fill("green");
   for (var x = 0; x < width/2; x = x + width/20){
 
-  rect(x, x * height/width,
-       width - 2 * x, height - 2 * x * height/width);
+  rect(x+10, x * height/width+10,
+       width - 2 * x-20, height - 2 * x * height/width-20);
   }
   /* verwerk een stap in de tijd: 
      pas de waarden van de globale variabelen aan
