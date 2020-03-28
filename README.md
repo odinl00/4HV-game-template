@@ -1,9 +1,10 @@
 # 1920-4HV-game-template
 Template voor de game-opdracht
 
-Mijlpalen om van het template een werkend spel te maken.
 
 ## Spel waarbij je vijand(en) moet ontwijken
+
+Mijlpalen:
 0. tekenSpeler
 1. beweegSpeler
 2. tekenVijand
@@ -14,8 +15,11 @@ Mijlpalen om van het template een werkend spel te maken.
 Ideeen voor uitbreidingen:
 - meer dan 1 vijand (gebruik arrays)
 - vijand kunnen neerschieten
+- bewegende achtergrond in tekenVeld maken
 
 ## Spel waarbij je vijand(en)/blokken moet neerschieten/wegtikken
+
+Mijlpalen:
 0. tekenSpeler
 1. beweegSpeler
 2. tekenVijand
@@ -30,6 +34,8 @@ Ideeen voor uitbreidingen:
 - meer dan 1 kogel (gebruik arrays)
 
 ## Platform game doolhof
+
+Mijlpalen:
 0. tekenSpeler
 1. tekenVeld (met 2D array)
 2. beweegSpeler
