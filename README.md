@@ -1,0 +1,39 @@
+# 1920-4HV-game-template
+Template voor de game-opdracht
+
+Enkele voorbeelden hoe je van het template een werkend spel maakt:
+
+Spel waarbij je vijand(en) moet ontwijken
+0.tekenSpeler
+1.beweegSpeler
+2.tekenVijand
+3.beweegVijand
+4.checkSpelerGeraakt
+5.checkGameOver (bijvoorbeeld als gezondheid op is)
+Ideeen voor uitbreidingen:
+- meer dan 1 vijand (gebruik arrays)
+- vijand kunnen neerschieten
+
+Spel waarbij je vijand(en) moet neerschieten
+0.tekenSpeler
+1.beweegSpeler
+2.tekenVijand
+3.beweegVijand
+4.checkSpelerGeraakt
+5.checkGameOver (bijvoorbeeld als gezondheid op is)
+6.beweegKogel
+7.checkVijandGeraakt
+Ideeen voor uitbreidingen:
+- meer dan 1 vijand (gebruik arrays)
+- meer dan 1 kogel (gebruik arrays)
+
+Platform game doolhof
+0.tekenSpeler
+1.tekenVeld (met 2D array)
+2.beweegSpeler
+3.checkGameOver (bijvoorbeeld als speler bij uitgang is of als tijd op is)
+Ideeen voor uitbreidingen:
+- fruits in het veld leggen die de speler kan pakken
+- bewegende vijand(en) toevoegen
+- meerdere levels/velden
+- random velden
