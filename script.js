@@ -82,7 +82,7 @@ var beweegVijand = function() {
 
 
 /**
- * update globale variabelen met positie van kogel of bal
+ * Updatet globale variabelen met positie van kogel of bal
  */
 var beweegKogel = function() {
 
@@ -90,7 +90,7 @@ var beweegKogel = function() {
 
 
 /**
- * Kijk wat de toetsen/muis etc zijn.
+ * Kijkt wat de toetsen/muis etc zijn.
  * Updatet globale variabele spelerX en spelerY
  */
 var beweegSpeler = function() {
@@ -99,7 +99,7 @@ var beweegSpeler = function() {
 
 
 /**
- * Zoek uit of de vijand is geraakt
+ * Zoekt uit of de vijand is geraakt
  * @returns {boolean} true als vijand is geraakt
  */
 var checkVijandGeraakt = function() {
@@ -109,7 +109,7 @@ var checkVijandGeraakt = function() {
 
 
 /**
- * Zoek uit of de speler is geraakt
+ * Zoekt uit of de speler is geraakt
  * bijvoorbeeld door botsing met vijand
  * @returns {boolean} true als speler is geraakt
  */
@@ -120,7 +120,7 @@ var checkSpelerGeraakt = function() {
 
 
 /**
- * Zoek uit of het spel is afgelopen
+ * Zoekt uit of het spel is afgelopen
  * @returns {boolean} true als het spel is afgelopen
  */
 var checkGameOver = function() {
