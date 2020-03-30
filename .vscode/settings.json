@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".github": true,
+    ".gitignore": true,
+    "p5.global-mode.d.ts": true,
+    "package-lock.json": true,
+    "package.json": true,
+    ".git": true,
+    ".vscode": true,
+    ".theia": true,
+    ".gitpod.yml": true
+  }
+}
