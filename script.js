@@ -1,3 +1,7 @@
+//// @ts-check
+/// <reference path="p5.global-mode.d.ts" />
+"use strict";
+
 /* Game opdracht
    Informatica - Emmauscollege Rotterdam
    Template voor een game in JavaScript met de p5 library
