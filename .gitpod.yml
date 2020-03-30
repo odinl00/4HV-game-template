@@ -1,6 +1,6 @@
--tasks:
+tasks:
   - command: python3 -m http.server 8080
     name: Static Server
 ports:
   - port: 8080
-  - onOpen: open-browser
+    onOpen: open-browser
