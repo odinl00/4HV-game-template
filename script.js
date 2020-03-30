@@ -1,3 +1,7 @@
+/// @ts-check
+/// <reference path="p5.global-mode.d.ts" />
+"use strict";
+
 /* Game opdracht
    Informatica - Emmauscollege Rotterdam
    Template voor een game in JavaScript met de p5 library
@@ -19,6 +23,12 @@ var spelStatus = SPELEN;
 
 var spelerX = 200; // x-positie van speler
 var spelerY = 100; // y-positie van speler
+
+var kogelX = 0;    // x-positie van kogel
+var kogelY = 0;    // y-positie van kogel
+
+var vijandX = 0;   // x-positie van vijand
+var vijandY = 0;   // y-positie van vijand
 
 var score = 0; // aantal behaalde punten
 
@@ -166,12 +176,12 @@ function draw() {
       }
 
       tekenVeld();
-      tekenVijand();
-      tekenKogel();
+      tekenVijand(vijandX, vijandY);
+      tekenKogel(kogelX, kogelY);
       tekenSpeler(spelerX, spelerY);
 
       if (checkGameOver()) {
-        SPELSTATUS = GAMEOVER;
+        spelStatus = GAMEOVER;
       }
       break;
   }
