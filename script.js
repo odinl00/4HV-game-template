@@ -1,5 +1,5 @@
 /// @ts-check
-/// <reference path="p5.global-mode.d.ts" />
+/// <reference path=".gitpod/p5.global-mode.d.ts" />
 "use strict";
 
 /* Game opdracht
