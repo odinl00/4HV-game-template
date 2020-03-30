@@ -10,6 +10,7 @@
     ".vscode": true,
     ".theia": true,
     ".replit": true,
+    ".gitpod": true,
     ".gitpod.yml": true
   }
 }
