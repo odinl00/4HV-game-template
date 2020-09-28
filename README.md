@@ -52,3 +52,4 @@ Ideeen voor uitbreidingen:
 ### Credits
 manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
 icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html
+and many more
