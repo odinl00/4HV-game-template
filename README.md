@@ -27,7 +27,7 @@ Uitbreiding: *bedankt iets, bijvoorbeeld bewegende achtergrond*
 
 ## Voorbeeld planning: Spel waarbij je vijand(en) moet ontwijken
 
-Mijlpalen:
+Basis:
 - [ ] tekenSpeler
 - [ ] beweegSpeler
 - [ ] tekenVijand
@@ -43,7 +43,7 @@ Uitbreiding: bewegende achtergrond in tekenVeld maken
 
 ## Voorbeeld planning: Spel waarbij je vijand(en)/blokken moet neerschieten/wegtikken
 
-Mijlpalen:
+Basis:
 - [ ] tekenSpeler
 - [ ] beweegSpeler
 - [ ] tekenVijand
@@ -57,11 +57,13 @@ Uitbreiding: meer dan 1 vijand (gebruik arrays)
 
 Uitbreiding: meer dan 1 kogel (gebruik arrays)
 
-## Platform game doolhof
+## Voorbeeld planning: Platform game doolhof
 
+Basis:
 - [ ] tekenSpeler
-- [ ] tekenVeld (met 2D array)
 - [ ] beweegSpeler
+- [ ] tekenVeld (met 2D array)
+- [ ] zorg dat speler in veld blijft
 - [ ] checkGameOver (bijvoorbeeld als speler bij uitgang is of als tijd op is)
 
 Uitbreiding: fruits in het veld leggen die de speler kan pakken
@@ -73,7 +75,7 @@ Uitbreiding: meerdere levels/velden
 Uitbreiding: random velden
 
 ## Credits
-- Emmauscollege template https://github.com/emmauscollege/4HV-game-template
+- Game template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-game-template
 - manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
 - icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html
 - and many more
