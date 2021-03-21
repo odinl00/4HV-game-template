@@ -1,23 +1,38 @@
 # 4HV-game-template
 Template voor de game-opdracht
 
+## Mijn planning: Spel waarbij je vijand(en) moet ontwijken
+[x] maak index.html, style.css en script.js met canvas
+[ ] teken speler
+[ ] beweeg speler
+[ ] ...
 
-## Spel waarbij je vijand(en) moet ontwijken
+Uitbreiding 1: verschillende tegenstanders
+[ ] later uitwerken
+[ ] later uitwerken
+[ ] later uitwerken
+
+Uitbreiding 2: mooie graphics
+[ ] later uitwerken
+[ ] later uitwerken
+[ ] later uitwerken
+
+## Voorbeeld planning: Spel waarbij je vijand(en) moet ontwijken
 
 Mijlpalen:
-0. tekenSpeler
-1. beweegSpeler
-2. tekenVijand
-3. beweegVijand
-4. checkSpelerGeraakt
-5. checkGameOver (bijvoorbeeld als gezondheid op is)
+[ ] tekenSpeler
+[ ] beweegSpeler
+[ ] tekenVijand
+[ ] beweegVijand
+[ ] checkSpelerGeraakt
+[ ] checkGameOver (bijvoorbeeld als gezondheid op is)
 
 Ideeen voor uitbreidingen:
-- meer dan 1 vijand (gebruik arrays)
-- vijand kunnen neerschieten
-- bewegende achtergrond in tekenVeld maken
+[ ] meer dan 1 vijand (gebruik arrays)
+[ ] vijand kunnen neerschieten
+[ ] bewegende achtergrond in tekenVeld maken
 
-## Spel waarbij je vijand(en)/blokken moet neerschieten/wegtikken
+## Voorbeeld planning: Spel waarbij je vijand(en)/blokken moet neerschieten/wegtikken
 
 Mijlpalen:
 0. tekenSpeler
