@@ -16,7 +16,7 @@ Basis: uitleg, spelen, afgaan en punten
 - [ ] punten kunnen scoren
 - [ ] uitlegscherm
 
-Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstander*
+Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
