@@ -72,7 +72,7 @@ Uitbreiding: meerdere levels/velden
 
 Uitbreiding: random velden
 
-### Credits
+## Credits
 - Emmauscollege template https://github.com/emmauscollege/4HV-game-template
 - manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
 - icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html
