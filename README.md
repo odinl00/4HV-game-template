@@ -6,7 +6,6 @@ Gemaakt door:
 - *naam van leerling 2*
 
 ## Mijn planning
-De onderdelen met vinkjes zijn af.
 
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
@@ -22,7 +21,7 @@ Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstander*
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 
-Uitbreiding: *bedankt iets, bijvoorbeeld bewegende achtergrond*
+Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
