@@ -2,15 +2,15 @@
 Template voor de game-opdracht
 
 ## Mijn planning: Spel waarbij je vijand(en) moet ontwijken
-[x] maak index.html, style.css en script.js met canvas
-[ ] teken speler
-[ ] beweeg speler
-[ ] ...
+1. [x] maak index.html, style.css en script.js met canvas
+2. [ ] teken speler
+3. [ ] beweeg speler
+4. [ ] ...
 
 Uitbreiding 1: verschillende tegenstanders
-[ ] later uitwerken
-[ ] later uitwerken
-[ ] later uitwerken
+- [ ] later uitwerken
+- [ ] later uitwerken
+- [ ] later uitwerken
 
 Uitbreiding 2: mooie graphics
 [ ] later uitwerken
