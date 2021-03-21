@@ -6,17 +6,21 @@ Gemaakt door:
 - *naam van leerling 2*
 
 ## Mijn planning
+Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
 - [ ] teken speler
 - [ ] beweeg speler
-- [ ] ...
+- [ ] ... *(vul zelf aan)*
+- [ ] punten op scherm zetten
+- [ ] punten kunnen scoren
+- [ ] uitlegscherm
 
-Uitbreiding: verschillende tegenstanders
+Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstander*
 - [ ] later uitwerken
 - [ ] later uitwerken
 - [ ] later uitwerken
 
-Uitbreiding: mooie graphics
+Uitbreiding: *bedankt iets, bijvoorbeeld bewegende achtergrond*
 - [ ] later uitwerken
 - [ ] later uitwerken
 - [ ] later uitwerken
