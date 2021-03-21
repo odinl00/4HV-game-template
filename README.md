@@ -16,66 +16,17 @@ Basis: uitleg, spelen, afgaan en punten
 - [ ] uitlegscherm
 
 Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstander*
-- [ ] later uitwerken
-- [ ] later uitwerken
-- [ ] later uitwerken
+- [ ] *later uitwerken*
+- [ ] *later uitwerken*
+- [ ] *later uitwerken*
 
 Uitbreiding: *bedankt iets, bijvoorbeeld bewegende achtergrond*
-- [ ] later uitwerken
-- [ ] later uitwerken
-- [ ] later uitwerken
-
-## Voorbeeld planning: Spel waarbij je vijand(en) moet ontwijken
-
-Basis:
-- [ ] tekenSpeler
-- [ ] beweegSpeler
-- [ ] tekenVijand
-- [ ] beweegVijand
-- [ ] checkSpelerGeraakt
-- [ ] checkGameOver (bijvoorbeeld als gezondheid op is)
-
-Uitbreiding: meer dan 1 vijand (gebruik arrays)
-
-Uitbreiding: vijand kunnen neerschieten
-
-Uitbreiding: bewegende achtergrond in tekenVeld maken
-
-## Voorbeeld planning: Spel waarbij je vijand(en)/blokken moet neerschieten/wegtikken
-
-Basis:
-- [ ] tekenSpeler
-- [ ] beweegSpeler
-- [ ] tekenVijand
-- [ ] beweegVijand
-- [ ] checkSpelerGeraakt
-- [ ] checkGameOver (bijvoorbeeld als gezondheid op is)
-- [ ] beweegKogel
-- [ ] checkVijandGeraakt
-
-Uitbreiding: meer dan 1 vijand (gebruik arrays)
-
-Uitbreiding: meer dan 1 kogel (gebruik arrays)
-
-## Voorbeeld planning: Platform game doolhof
-
-Basis:
-- [ ] tekenSpeler
-- [ ] beweegSpeler
-- [ ] tekenVeld (met 2D array)
-- [ ] zorg dat speler in veld blijft
-- [ ] checkGameOver (bijvoorbeeld als speler bij uitgang is of als tijd op is)
-
-Uitbreiding: fruits in het veld leggen die de speler kan pakken
-
-Uitbreiding: bewegende vijand(en) toevoegen
-
-Uitbreiding: meerdere levels/velden
-
-Uitbreiding: random velden
+- [ ] *later uitwerken*
+- [ ] *later uitwerken*
+- [ ] *later uitwerken*
 
 ## Credits
 - Game template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-game-template
 - manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
 - icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html
-- and many more
+- ...
