@@ -6,6 +6,8 @@ Gemaakt door:
 - *naam van leerling 2*
 
 ## Mijn planning
+De onderdelen met vinkjes zijn af.
+
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
 - [ ] teken speler
