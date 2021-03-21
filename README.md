@@ -1,70 +1,74 @@
-# 4HV-game-template
-Template voor de game-opdracht
+Deze game is gebaseerd op het template voor 4HV van het Emmauscollege Rotterdam
 
-## Mijn planning: Spel waarbij je vijand(en) moet ontwijken
-1. [x] maak index.html, style.css en script.js met canvas
-2. [ ] teken speler
-3. [ ] beweeg speler
-4. [ ] ...
+## Mijn spel: *naam van het spel*
+Gemaakt door:
+- *naam van leerling 1*
+- *naam van leerling 2*
 
-Uitbreiding 1: verschillende tegenstanders
+## Mijn planning
+- [x] maak index.html, style.css en script.js met canvas
+- [ ] teken speler
+- [ ] beweeg speler
+- [ ] ...
+
+Uitbreiding: verschillende tegenstanders
 - [ ] later uitwerken
 - [ ] later uitwerken
 - [ ] later uitwerken
 
-Uitbreiding 2: mooie graphics
-[ ] later uitwerken
-[ ] later uitwerken
-[ ] later uitwerken
+Uitbreiding: mooie graphics
+- [ ] later uitwerken
+- [ ] later uitwerken
+- [ ] later uitwerken
 
 ## Voorbeeld planning: Spel waarbij je vijand(en) moet ontwijken
 
 Mijlpalen:
-[ ] tekenSpeler
-[ ] beweegSpeler
-[ ] tekenVijand
-[ ] beweegVijand
-[ ] checkSpelerGeraakt
-[ ] checkGameOver (bijvoorbeeld als gezondheid op is)
+- [ ] tekenSpeler
+- [ ] beweegSpeler
+- [ ] tekenVijand
+- [ ] beweegVijand
+- [ ] checkSpelerGeraakt
+- [ ] checkGameOver (bijvoorbeeld als gezondheid op is)
 
-Ideeen voor uitbreidingen:
-[ ] meer dan 1 vijand (gebruik arrays)
-[ ] vijand kunnen neerschieten
-[ ] bewegende achtergrond in tekenVeld maken
+Uitbreiding: meer dan 1 vijand (gebruik arrays)
+
+Uitbreiding: vijand kunnen neerschieten
+
+Uitbreiding: bewegende achtergrond in tekenVeld maken
 
 ## Voorbeeld planning: Spel waarbij je vijand(en)/blokken moet neerschieten/wegtikken
 
 Mijlpalen:
-0. tekenSpeler
-1. beweegSpeler
-2. tekenVijand
-3. beweegVijand
-4. checkSpelerGeraakt
-5. checkGameOver (bijvoorbeeld als gezondheid op is)
-6. beweegKogel
-7. checkVijandGeraakt
+- [ ] tekenSpeler
+- [ ] beweegSpeler
+- [ ] tekenVijand
+- [ ] beweegVijand
+- [ ] checkSpelerGeraakt
+- [ ] checkGameOver (bijvoorbeeld als gezondheid op is)
+- [ ] beweegKogel
+- [ ] checkVijandGeraakt
 
-Ideeen voor uitbreidingen:
-- meer dan 1 vijand (gebruik arrays)
-- meer dan 1 kogel (gebruik arrays)
+Uitbreiding: meer dan 1 vijand (gebruik arrays)
+
+Uitbreiding: meer dan 1 kogel (gebruik arrays)
 
 ## Platform game doolhof
 
-Mijlpalen:
-0. tekenSpeler
-1. tekenVeld (met 2D array)
-2. beweegSpeler
-3. checkGameOver (bijvoorbeeld als speler bij uitgang is of als tijd op is)
+- [ ] tekenSpeler
+- [ ] tekenVeld (met 2D array)
+- [ ] beweegSpeler
+- [ ] checkGameOver (bijvoorbeeld als speler bij uitgang is of als tijd op is)
 
-Ideeen voor uitbreidingen:
-- fruits in het veld leggen die de speler kan pakken
-- bewegende vijand(en) toevoegen
-- meerdere levels/velden
-- random velden
+Uitbreiding: fruits in het veld leggen die de speler kan pakken
 
-## ...
+Uitbreiding: bewegende vijand(en) toevoegen
+
+Uitbreiding: meerdere levels/velden
+
+Uitbreiding: random velden
 
 ### Credits
-manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
-icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html
+manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3<br>
+icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html<br>
 and many more
