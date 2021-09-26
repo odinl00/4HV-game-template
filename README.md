@@ -57,6 +57,14 @@ Kies de uitbreidingen die je leuk vindt en maak je game nog mooier<br>
 - [ ] Laat vijanden bewegen in patronen
 - [ ] ...
 
+## Documentatie
+- Khan Academy cursus JavaScript met p5js library 
+https://www.khanacademy.org/computing/computer-programming/programming
+- p5js reference 
+https://p5js.org/reference/
+- informatie van Emmauscollege over game opdracht
+https://emmauscollege.github.io/informatica/game/
+
 ## Credits
 - Game template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-game-template
 - manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
