@@ -15,12 +15,35 @@ const SPELEN = 1;
 const GAMEOVER = 2;
 var spelStatus = SPELEN;
 
-var spelerX = 200; // x-positie van speler
-var spelerY = 100; // y-positie van speler
+var spelerX = 600; // x-positie van speler
+var spelerY = 600; // y-positie van speler
 
 /* ********************************************* */
 /*      functies die je gebruikt in je game      */
 /* ********************************************* */
+
+
+/**
+ * Updatet globale variabelen met posities van speler, vijanden en kogels
+ */
+var beweegAlles = function() {
+    
+};
+
+/**
+ * Updatet globale variabelen punten
+ */
+var updatePunten = function() {
+    
+};
+
+/**
+ * Updatet globale variabelen health
+ */
+var updateHealth = function() {
+    
+};
+
 
 /**
  * Tekent spelscherm
@@ -34,16 +57,19 @@ var tekenAlles = function() {
 
   // speler
   fill("white");
-  ellipse(x, y, 50, 50);
+  rect(spelerX-25, spelerY-25, 50, 50);
+  fill("black");
+  ellipse(spelerX, spelerY, 10, 10);
 
   // punten en HP
 };
 
 /**
- * Updatet globale variabelen met posities van speler, vijanden en kogels
+ * return true als het gameover is
+ * anders return false
  */
-var beweegAlles = function() {
-    
+var checkGameOver = function() {
+    return false;
 };
 
 /**
