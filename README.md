@@ -3,6 +3,14 @@ Deze game is gebaseerd op het template voor 4HV van het Emmauscollege Rotterdam
 ## Mijn spel: *naam van het spel*
 Gemaakt door: *naam van leerling*
 
+Beschrijving:<br>
+Dit spel is een shooter. 
+De speler moet vijanden ontwijken. 
+Vijanden kunnen worden neergeschoten. 
+Als de speler een vijand raakt dan verliest de speler health. 
+Als de health op is, dan ben je af. 
+Hoe langer je het volhoudt, hoe meer punten je krijgt.
+Het doel is om zoveel mogelijk punten te halen.
 
 ## Mijn planning
 Werk de planning af van boven naar beneden<br>
@@ -55,6 +63,7 @@ Kies de uitbreidingen die je leuk vindt en maak je game nog mooier<br>
 - [ ] Maak spel steeds moeilijker door toenemend aantal vijanden met tekenVijand
 - [ ] Maak andere vijanden bij toenemen tekenVijand
 - [ ] Laat vijanden bewegen in patronen
+- [ ] Maak bediening met touch of bewegen van telefoon mogelijk (zorg dat toetsenbordbediening ook blijft werken)
 - [ ] ...
 
 ## Documentatie

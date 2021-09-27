@@ -11,42 +11,44 @@
 /* ********************************************* */
 
 const SPELEN = 1;
+const GAMEOVER = 2;
 var spelStatus = SPELEN;
 
 var spelerX = 600; // x-positie van speler
 var spelerY = 600; // y-positie van speler
 
 /* ********************************************* */
-/*      functies die je gebruikt in je game      */
+/* functies die je gebruikt in je game           */
 /* ********************************************* */
-
 
 /**
  * Updatet globale variabelen met posities van speler, vijanden en kogels
  */
-var beweegAlles = function() {
-    
+var beweegAlles = function () {
+  // vijand
+
+  // kogel
+
+  // speler
+
 };
 
 /**
- * Updatet globale variabelen punten
+ * Checkt botsingen
+ * Verwijdert neergeschoten vijanden
+ * Updatet globale variabelen punten en health
  */
-var updatePunten = function() {
-    
-};
+var verwerkBotsing = function () {
+  // botsing speler tegen vijand
 
-/**
- * Updatet globale variabelen health
- */
-var updateHealth = function() {
-    
-};
+  // botsing kogel tegen vijand
 
+};
 
 /**
  * Tekent spelscherm
  */
-var tekenAlles = function() {
+var tekenAlles = function () {
   // achtergrond
 
   // vijand
@@ -55,20 +57,25 @@ var tekenAlles = function() {
 
   // speler
   fill("white");
-  rect(spelerX-25, spelerY-25, 50, 50);
+  rect(spelerX - 25, spelerY - 25, 50, 50);
   fill("black");
   ellipse(spelerX, spelerY, 10, 10);
 
-  // punten en HP
+  // punten en health
+
 };
 
 /**
  * return true als het gameover is
  * anders return false
  */
-var checkGameOver = function() {
-    return false;
+var checkGameOver = function () {
+  return false;
 };
+
+/* ********************************************* */
+/* setup() en draw() functies / hoofdprogramma   */
+/* ********************************************* */
 
 /**
  * setup
@@ -85,19 +92,20 @@ function setup() {
 
 /**
  * draw
- * de code in deze functie wordt meerdere keren per seconde
+ * de code in deze functie wordt 50 keer per seconde
  * uitgevoerd door de p5 library, nadat de setup functie klaar is
  */
 function draw() {
-  switch (spelStatus) {
-    case SPELEN:
-      beweegAlles();
-      updatePunten();
-      updateHealth();
-      tekenAlles();
-      if (checkGameOver()) {
-        spelStatus = GAMEOVER;
-      }
-      break;
+  if (spelStatus === SPELEN) {
+    beweegAlles();
+    verwerkBotsing();
+    tekenAlles();
+    if (checkGameOver()) {
+      spelStatus = GAMEOVER;
+    }
+  }
+  if (spelStatus === GAMEOVER) {
+    // teken game-over scherm
+
   }
 }
