@@ -18,7 +18,7 @@
 /* ********************************************* */
 
 const UITLEG = 0;
-const SPELEN = 1;
+const SPELEN = 3;
 const GAMEOVER = 2;
 var spelStatus = SPELEN;
 
