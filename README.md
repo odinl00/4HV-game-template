@@ -18,42 +18,42 @@ Geef aan met [x] welke onderdelen af zijn
 
 Basis: uitleg, spelen, afgaan en punten<br>
 Optioneel: extra onderdelen, je kunt die overslaan<br>
-- [x] maak index.html, style.css en script.js met canvas
-- [ ] teken speler<br>
-Maak de afmeting van de speler 50x50 pixels<br>
-Gebruik variabalen spelerX en spelerY als middelpunt van de speler
-- [ ] beweeg speler met pijltjetoetsen<br>
-Gebruik de functie keyIsDown() om te kijken welke toets is ingedrukt
-- [ ] beperk beweging tot schermranden
-- [ ] tekenVijand<br>
-De afmeting van de vijand is 50x50 pixels<br>
-Gebruik twee variabelen vijandX en vijandY die het midden van de vijand aanwijzen
-- [ ] beweegVijand vallend
-- [ ] zet vijand bovenaan als gevallen<br>
-De afmeting van het scherm vind je in de setup() functie
-- [ ] console-bericht bij botsing speler-vijand<br>
-Gebruikt console.log om iets op de console te schrijven
-- [ ] toon HP, elke botsing is lagere HP
-- [ ] toon punten, elke seconde 1 punt erbij
-- [ ] game over scherm met punten als HP op is
-- [ ] optioneel: intro scherm met speluitleg, enter is start
-- [ ] maak 3 vijanden op een rij<br>
-Kopieer de code die de vijanden beweegt en tekent<br>
-Gebruik variabelen vijandX1, vijandX2 enzovoort<br>
-Zet de vijanden op dezelfde hoogte op de y-as<br>
-Gebruik een afstand van 150 pixels op de x-as tussen twee vijanden
-- [ ] maak 3 vijanden op een rij met een loop<br>
-Verander de code zodat er een loop gebruikt wordt
-- [ ] maak 8 vijanden op een rij met een loop<br>
-Verander het aantal keer dat de loop wordt herhaald
-- [ ] optioneel: maak 8 vijanden op willekeurige plekken met een loop en array
-- [ ] tekenKogel ergens
-- [ ] zet kogel bij speler als spatie wordt ingedrukt
-- [ ] beweegKogel omhoog
-- [ ] console-bericht bij botsing kogel-vijand
-- [ ] verwijder kogel en vijand als geraakt
-- [ ] optioneel: maak 10 kogels met loop en array
-- [ ] optioneel: schiet maar 1 kogel telkens als spatie wordt ingedrukt
+- [x] 1. maak index.html, style.css en script.js met canvas
+- [ ] 2. teken speler<br>
+    Maak de afmeting van de speler 50x50 pixels<br>
+    Gebruik variabalen spelerX en spelerY als middelpunt van de speler
+- [ ] 3. beweeg speler met pijltjetoetsen<br>
+    Gebruik de functie keyIsDown() om te kijken welke toets is ingedrukt
+4. [ ] beperk beweging tot schermranden
+5. [ ] tekenVijand<br>
+    De afmeting van de vijand is 50x50 pixels<br>
+    Gebruik twee variabelen vijandX en vijandY die het midden van de vijand aanwijzen
+5. [ ] beweegVijand vallend
+6. [ ] zet vijand bovenaan als gevallen<br>
+    De afmeting van het scherm vind je in de setup() functie
+7. [ ] console-bericht bij botsing speler-vijand<br>
+    Gebruikt console.log om iets op de console te schrijven
+8. [ ] toon HP, elke botsing is lagere HP
+9. [ ] toon punten, elke seconde 1 punt erbij
+10. [ ] game over scherm met punten als HP op is
+11. [ ] optioneel: intro scherm met speluitleg, enter is start
+12. [ ] maak 3 vijanden op een rij<br>
+    Kopieer de code die de vijanden beweegt en tekent<br>
+    Gebruik variabelen vijandX1, vijandX2 enzovoort<br>
+    Zet de vijanden op dezelfde hoogte op de y-as<br>
+    Gebruik een afstand van 150 pixels op de x-as tussen twee vijanden
+13. [ ] maak 3 vijanden op een rij met een loop<br>
+    Verander de code zodat er een loop gebruikt wordt
+14. [ ] maak 8 vijanden op een rij met een loop<br>
+    Verander het aantal keer dat de loop wordt herhaald
+15. [ ] optioneel: maak 8 vijanden op willekeurige plekken met een loop en array
+16. [ ] tekenKogel ergens
+17. [ ] zet kogel bij speler als spatie wordt ingedrukt
+18. [ ] beweegKogel omhoog
+19. [ ] console-bericht bij botsing kogel-vijand
+20. [ ] verwijder kogel en vijand als geraakt
+21. [ ] optioneel: maak 10 kogels met loop en array
+22. [ ] optioneel: schiet maar 1 kogel telkens als spatie wordt ingedrukt
 
 Uitbreiding:<br>
 Kies de uitbreidingen die je leuk vindt en maak je game nog mooier<br>
