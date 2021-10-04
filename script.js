@@ -1,7 +1,3 @@
-/// @ts-check
-/// <reference path=".gitpod/p5.global-mode.d.ts" />
-"use strict";
-
 /* Game opdracht
    Informatica - Emmauscollege Rotterdam
    Template voor een game in JavaScript met de p5 library
@@ -10,135 +6,76 @@
    voeg er je eigen code aan toe.
  */
 
-
-
-
 /* ********************************************* */
 /* globale variabelen die je gebruikt in je game */
 /* ********************************************* */
 
-const UITLEG = 0;
-const SPELEN = 3;
+const SPELEN = 1;
 const GAMEOVER = 2;
 var spelStatus = SPELEN;
 
-var spelerX = 200; // x-positie van speler
-var spelerY = 100; // y-positie van speler
-
-var kogelX = 0;    // x-positie van kogel
-var kogelY = 0;    // y-positie van kogel
-
-var vijandX = 0;   // x-positie van vijand
-var vijandY = 0;   // y-positie van vijand
-
-var score = 0; // aantal behaalde punten
-
-
-
-
+var spelerX = 600; // x-positie van speler
+var spelerY = 600; // y-positie van speler
 
 /* ********************************************* */
-/*      functies die je gebruikt in je game      */
+/* functies die je gebruikt in je game           */
 /* ********************************************* */
 
-
 /**
- * Tekent het speelveld
+ * Updatet globale variabelen met posities van speler, vijanden en kogels
  */
-var tekenVeld = function () {
-  fill("purple");
-  rect(20, 20, width - 2 * 20, height - 2 * 20);
-};
+var beweegAlles = function () {
+  // vijand
 
+  // kogel
 
-/**
- * Tekent de vijand
- * @param {number} x x-coördinaat
- * @param {number} y y-coördinaat
- */
-var tekenVijand = function(x, y) {
-    
+  // speler
 
 };
 
-
 /**
- * Tekent de kogel of de bal
- * @param {number} x x-coördinaat
- * @param {number} y y-coördinaat
+ * Checkt botsingen
+ * Verwijdert neergeschoten vijanden
+ * Updatet globale variabelen punten en health
  */
-var tekenKogel = function(x, y) {
+var verwerkBotsing = function () {
+  // botsing speler tegen vijand
 
+  // botsing kogel tegen vijand
 
 };
 
-
 /**
- * Tekent de speler
- * @param {number} x x-coördinaat
- * @param {number} y y-coördinaat
+ * Tekent spelscherm
  */
-var tekenSpeler = function(x, y) {
+var tekenAlles = function () {
+  // achtergrond
+
+  // vijand
+
+  // kogel
+
+  // speler
   fill("white");
-  ellipse(x, y, 50, 50);
-};
+  rect(spelerX - 25, spelerY - 25, 50, 50);
+  fill("black");
+  ellipse(spelerX, spelerY, 10, 10);
 
-
-/**
- * Updatet globale variabelen met positie van vijand of tegenspeler
- */
-var beweegVijand = function() {
-    
-};
-
-
-/**
- * Updatet globale variabelen met positie van kogel of bal
- */
-var beweegKogel = function() {
+  // punten en health
 
 };
 
-
 /**
- * Kijkt wat de toetsen/muis etc zijn.
- * Updatet globale variabele spelerX en spelerY
+ * return true als het gameover is
+ * anders return false
  */
-var beweegSpeler = function() {
-
-};
-
-
-/**
- * Zoekt uit of de vijand is geraakt
- * @returns {boolean} true als vijand is geraakt
- */
-var checkVijandGeraakt = function() {
-
+var checkGameOver = function () {
   return false;
 };
 
-
-/**
- * Zoekt uit of de speler is geraakt
- * bijvoorbeeld door botsing met vijand
- * @returns {boolean} true als speler is geraakt
- */
-var checkSpelerGeraakt = function() {
-    
-  return false;
-};
-
-
-/**
- * Zoekt uit of het spel is afgelopen
- * @returns {boolean} true als het spel is afgelopen
- */
-var checkGameOver = function() {
-    
-  return false;
-};
-
+/* ********************************************* */
+/* setup() en draw() functies / hoofdprogramma   */
+/* ********************************************* */
 
 /**
  * setup
@@ -153,37 +90,22 @@ function setup() {
   background('blue');
 }
 
-
 /**
  * draw
- * de code in deze functie wordt meerdere keren per seconde
+ * de code in deze functie wordt 50 keer per seconde
  * uitgevoerd door de p5 library, nadat de setup functie klaar is
  */
 function draw() {
-  switch (spelStatus) {
-    case SPELEN:
-      beweegVijand();
-      beweegKogel();
-      beweegSpeler();
-      
-      if (checkVijandGeraakt()) {
-        // punten erbij
-        // nieuwe vijand maken
-      }
-      
-      if (checkSpelerGeraakt()) {
-        // leven eraf of gezondheid verlagen
-        // eventueel: nieuwe speler maken
-      }
+  if (spelStatus === SPELEN) {
+    beweegAlles();
+    verwerkBotsing();
+    tekenAlles();
+    if (checkGameOver()) {
+      spelStatus = GAMEOVER;
+    }
+  }
+  if (spelStatus === GAMEOVER) {
+    // teken game-over scherm
 
-      tekenVeld();
-      tekenVijand(vijandX, vijandY);
-      tekenKogel(kogelX, kogelY);
-      tekenSpeler(spelerX, spelerY);
-
-      if (checkGameOver()) {
-        spelStatus = GAMEOVER;
-      }
-      break;
   }
 }
