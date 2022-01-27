@@ -25,23 +25,24 @@ var spelerY = 600; // y-positie van speler
  * Updatet globale variabelen met posities van speler, vijanden en kogels
  */
 var beweegAlles = function () {
+  // speler
+
   // vijand
 
   // kogel
-
-  // speler
-
 };
 
 /**
  * Checkt botsingen
- * Verwijdert neergeschoten vijanden
+ * Verwijdert neergeschoten dingen
  * Updatet globale variabelen punten en health
  */
 var verwerkBotsing = function () {
   // botsing speler tegen vijand
 
   // botsing kogel tegen vijand
+
+  // update punten en health
 
 };
 
@@ -70,6 +71,7 @@ var tekenAlles = function () {
  * anders return false
  */
 var checkGameOver = function () {
+  // check of HP 0 is , of tijd op is, of ...
   return false;
 };
 
