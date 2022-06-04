@@ -6,10 +6,11 @@
    voeg er je eigen code aan toe.
  */
 
+///<reference path="p5.global-mode.d.ts" />
+
 /* ********************************************* */
 /* globale variabelen die je gebruikt in je game */
 /* ********************************************* */
-
 const SPELEN = 1;
 const GAMEOVER = 2;
 var spelStatus = SPELEN;
@@ -90,6 +91,7 @@ function setup() {
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
   background('blue');
+  fill()
 }
 
 /**
