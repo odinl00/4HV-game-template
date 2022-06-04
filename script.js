@@ -6,7 +6,11 @@
    voeg er je eigen code aan toe.
  */
 
+/*
+ * instellingen om foutcontrole van je code beter te maken 
+ */
 ///<reference path="p5.global-mode.d.ts" />
+"use strict"
 
 /* ********************************************* */
 /* globale variabelen die je gebruikt in je game */
@@ -91,7 +95,6 @@ function setup() {
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
   background('blue');
-  fill()
 }
 
 /**
