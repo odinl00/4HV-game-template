@@ -1,19 +1,16 @@
-Deze game is gebaseerd op het template voor 4HV van het Emmauscollege Rotterdam
+Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
+[Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
 
-## Mijn spel: *naam van het spel*
-Gemaakt door:
-- *naam van leerling 1*
-- *naam van leerling 2*
+## *zet hier de naam van je spel*
 
-### Beschrijving
-*korte beschrijving van het spel, wat je kunt doen in het spel, wat het doel is*
+*zet hier een korte beschrijving van het spel, wat je kunt doen in het spel, wat het doel is*
 
-## Mijn planning
+## Planning
 Werk de planning af van boven naar beneden<br>
+Vul de planning aan en stel bij terwijl je aan de game werkt
 Geef aan met [x] welke onderdelen af zijn
 
-### Basisstappen
-Basis: uitleg, spelen, afgaan en punten
+### Stap 1: uitleg, spelen, afgaan en punten
 - [x] 1. maak index.html, style.css en script.js met canvas
 - [ ] 2. teken speler
         - Zet je code in de functie tekenAlles()
@@ -21,30 +18,26 @@ Basis: uitleg, spelen, afgaan en punten
         - Zet je code in de functie beweegAlles()
         - Kies de afmeting van speler
         - Gebruik variabalen spelerX en spelerY als middelpunt van de speler
-- [ ] 4. *(pas de volgende stappen in de planning zelf aan)*
-- [ ] x. teken je tegenspeler (vijanden of dingen die je moet pakken of doelen of ...)
-- [ ] x. teken een bal, kogel (als die in je spel zit)
-- [ ] x. beweeg de tegenspeler of je bal
-- [ ] x. zet punten op het scherm 
-- [ ] x. zorg dat je punten kunt scoren
-- [ ] x. zorg dat je af kunt
-- [ ] x. maak game-over-scherm
-- [ ] x. maak uitlegscherm
+- [ ] 4. teken je tegenspeler (vijanden of dingen die je moet pakken of doelen of ...)
+- [ ] 5. beweeg je tegenspeler
+- [ ] 6. detecteer botsing
+- [ ] 7. zorg dat je af kunt gaan
+- [ ] 8. zorg dat je punten kunt halen
+        - een simpele manier om punten te geven is de tijd meten hoe lang je het volhoudt
+- [ ] 9. zet punten op het scherm
+- [ ] 10. maak uitlegscherm en game-overscherm
 
-### Uitbreidingen 1
-Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
+### Stap 2: schieten of springen
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 
-### Uitbreidingen 2
-Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
+### Stap 3: meer tegenstanders
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 - [ ] *later uitwerken*
 
-### Ideeen voor uitbreidingen
-Kies de uitbreidingen die je leuk vindt en maak je game nog mooier
+### Stap x: meer ideeen voor uitbreidingen
 - [ ] Gebruik plaatjes voor de vijanden
 - [ ] Animeer speler
 - [ ] Laat badges vallen die extra's aan speler geven
