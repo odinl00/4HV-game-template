@@ -1,4 +1,5 @@
 Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
+
 [Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
 
 ## *zet hier de naam van je spel*
@@ -7,7 +8,7 @@ Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
 
 ## Planning
 Werk de planning af van boven naar beneden<br>
-Vul de planning aan en stel bij terwijl je aan de game werkt
+Vul de planning aan en stel bij terwijl je aan de opdracht werkt
 Geef aan met [x] welke onderdelen af zijn
 
 ### Stap 1: uitleg, spelen, afgaan en punten
