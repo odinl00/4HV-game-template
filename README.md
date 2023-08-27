@@ -8,7 +8,9 @@ https://www.khanacademy.org/computing/computer-programming/programming
 - p5js reference <br>
 https://p5js.org/reference/
 - informatie van Emmauscollege over game opdracht <br>
-https://emmauscollege.github.io/informatica/game/
+https://informatica.emmauscollege.nl/opdrachten/game/
+- cursus games programmeren (verdieping voor wie meer wil leren)
+https://cs50.harvard.edu/games/2018/
 
 ## Credits
 - Game template van het Emmauscollege Rotterdam <br>
