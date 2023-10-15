@@ -1,4 +1,12 @@
 {
+  "git.useEditorAsCommitInput": false, // prevent editor looking like continouosly busy after committing with an empty message
+  "git.confirmSync": false, // disable pop-up with confirmation questions after click on synchronise
+  "git.enableSmartCommit": true, // stage all changes when none of the changes are stages, instead of showing pop-up with a warnin
+  "git.postCommitCommand": "sync", // sync automatically after each commit
+  "git.mergeEditor": true, // open merge-editor for files under conflict
+  "git.autofetch": true, // autofetch (fetch means count, not read) changes from github periodically
+  "git.autofetchPeriod": 60 // autofetch period 60 seconds
+  
   "files.exclude": {
     ".git": true,
     ".github": true,
