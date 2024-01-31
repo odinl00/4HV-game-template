@@ -6,6 +6,8 @@
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/http-server:1": {}
 	},
+	// Use 'postStartCommand' to run commands after the container is started.
+	"postStartCommand": "nohup bash -c 'http-server -c-1 > .nohup_webserver.out 2>&1 & rm nohup.out &'", // start webserver without cache on port 8080 nocache and leave it running in background
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
