@@ -21,6 +21,7 @@
     "p5.global-mode.d.ts": true,
     "replit.nix": true,
     ".replit": true,
+    "replit.nix.bak": true,
     ".devcontainer": true
   }
 }
