@@ -20,6 +20,7 @@
     "p5.d.ts": true,
     "p5.global-mode.d.ts": true,
     "replit.nix": true,
-    ".replit": true
+    ".replit": true,
+    ".devcontainer": true
   }
 }
