@@ -7,7 +7,7 @@
   "git.autofetch": true, // autofetch (fetch means count, not read) changes from github periodically
   "git.autofetchPeriod": 60, // autofetch period 60 seconds
   
-  "files.exclude": {
+  "files.excludexxx": {
     ".git": true,
     ".github": true,
     ".gitignore": true,
