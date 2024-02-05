@@ -21,6 +21,7 @@ var spelStatus = SPELEN;
 
 var spelerX = 600; // x-positie van speler
 var spelerY = 600; // y-positie van speler
+var health = 100;  // health van speler
 
 /* ********************************************* */
 /* functies die je gebruikt in je game           */
@@ -71,15 +72,6 @@ var tekenAlles = function() {
 
 };
 
-/**
- * return true als het gameover is
- * anders return false
- */
-var checkGameOver = function() {
-  // check of HP 0 is , of tijd op is, of ...
-  return false;
-};
-
 /* ********************************************* */
 /* setup() en draw() functies / hoofdprogramma   */
 /* ********************************************* */
@@ -107,12 +99,11 @@ function draw() {
     beweegAlles();
     verwerkBotsing();
     tekenAlles();
-    if (checkGameOver()) {
+    if (health <= 0) {
       spelStatus = GAMEOVER;
     }
   }
   if (spelStatus === GAMEOVER) {
     // teken game-over scherm
-
   }
 }
