@@ -1,3 +1,6 @@
+
+
+
 /* Game opdracht
    Informatica - Emmauscollege Rotterdam
    Template voor een game in JavaScript met de p5 library
@@ -17,11 +20,20 @@
 /* ********************************************* */
 const SPELEN = 1;
 const GAMEOVER = 2;
+const UITLEG = 8;
 var spelStatus = SPELEN;
 
-var spelerX = 600; // x-positie van speler
+var spelerX = 700; // x-positie van speler
 var spelerY = 600; // y-positie van speler
 var health = 100;  // health van speler
+
+var vijandX = 600;
+var vijandY = 600;
+
+var img;
+var kogelX = 400;
+var kogelY = 400;
+var kogelVliegt = false;
 
 /* ********************************************* */
 /* functies die je gebruikt in je game           */
@@ -30,12 +42,43 @@ var health = 100;  // health van speler
 /**
  * Updatet globale variabelen met posities van speler, vijanden en kogels
  */
-var beweegAlles = function() {
+var beweegAlles = function () {
   // speler
+  if (keyIsDown(65)) {
+    spelerX = spelerX - 3;
+  }
+
+  if (keyIsDown(68)) {
+    spelerX = spelerX + 3;
+  }
+
+  if (keyIsDown(87)) {
+    spelerY = spelerY - 3;
+  }
+
+  if (keyIsDown(83)) {
+    spelerY = spelerY + 3;
+  }
+
 
   // vijand
 
   // kogel
+
+  if (kogelVliegt === false && keyIsDown(32)) { //spatie
+    kogelVliegt = true 
+    kogelX = kogelX;
+    kogelY = spelerY;
+    kogelX = spelerX;
+  }
+
+  if (kogelVliegt === true) { 
+    kogelY = kogelY - 10; 
+  }
+
+  if (kogelVliegt === true && kogelY < 0){
+    kogelVliegt = false 
+  }
 };
 
 /**
@@ -43,9 +86,15 @@ var beweegAlles = function() {
  * Verwijdert neergeschoten dingen
  * Updatet globale variabelen punten en health
  */
-var verwerkBotsing = function() {
+var verwerkBotsing = function () {
   // botsing speler tegen vijand
-
+  if (spelerX - vijandX < 50 &&
+    spelerX - vijandX > -50 &&
+    spelerY - vijandY < 50 &&
+    spelerY - vijandY > -50) {
+    aantal = aantal + 1;
+    console.log("botsing" + aantal);
+  }
   // botsing kogel tegen vijand
 
   // update punten en health
@@ -55,18 +104,28 @@ var verwerkBotsing = function() {
 /**
  * Tekent spelscherm
  */
-var tekenAlles = function() {
-  // achtergrond
-
-  // vijand
+var tekenAlles = function () {
 
   // kogel
 
+  // achtergrond
+  fill("grey");
+  rect(0, 0, 3000, 2100)
+
+  // vijand
+  fill("green");
+  rect(vijandX - 25, vijandY - 25, 50, 50);
+  fill("red");
+  ellipse(vijandX, vijandY, 10, 10);
+
+
   // speler
-  fill("white");
-  rect(spelerX - 25, spelerY - 25, 50, 50);
-  fill("black");
-  ellipse(spelerX, spelerY, 10, 10);
+
+  image(img, spelerX - 40, spelerY - 40, 80, 80);
+  // kogel
+  fill("red");
+  ellipse(kogelX, kogelY, 20, 20);
+
 
   // punten en health
 
@@ -76,6 +135,23 @@ var tekenAlles = function() {
 /* setup() en draw() functies / hoofdprogramma   */
 /* ********************************************* */
 
+var checkGameOver = function () {
+  if (spelerX - vijandX < 50 &&
+    spelerX - vijandX > -50 &&
+    spelerY - vijandY < 50 &&
+    spelerY - vijandY > -50) {
+    aantal = aantal + 1;
+    console.log("botsing" + aantal);
+    return true;
+  }
+
+  return false
+};
+
+function preload() {
+  img = loadImage('images/player.png');
+}
+
 /**
  * setup
  * de code in deze functie wordt één keer uitgevoerd door
@@ -83,7 +159,7 @@ var tekenAlles = function() {
  */
 function setup() {
   // Maak een canvas (rechthoek) waarin je je speelveld kunt tekenen
-  createCanvas(1280, 720);
+  createCanvas(1500, 1000);
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
   background('blue');
@@ -103,7 +179,20 @@ function draw() {
       spelStatus = GAMEOVER;
     }
   }
+  console.log("spelen");
+
   if (spelStatus === GAMEOVER) {
     // teken game-over scherm
+    console.log("game over");
+    textSize(100);
+    fill("white");
+    text("game over", 100, 100);
   }
+
+  if (spelStatus === UITLEG) {
+    console.log("uitleg");
+  }
+
+
+
 }
